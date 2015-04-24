@@ -11,7 +11,7 @@ import chylex.hee.system.savedata.WorldSavefile;
 
 public class WorldGenSavefile extends WorldSavefile{
 	public enum WorldGenElement{
-		DUNGEON_TOWER(1), BIOME_ISLAND(6), INSIDIOUS_SANCTUARY(0 /* ignore collisions */);
+		DUNGEON_TOWER(1), BIOME_ISLAND(6));
 		
 		private final byte rad;
 		

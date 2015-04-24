@@ -39,7 +39,6 @@ import chylex.hee.entity.mob.EntityMobHomelandEnderman;
 import chylex.hee.entity.mob.EntityMobInfestedBat;
 import chylex.hee.entity.mob.EntityMobLouse;
 import chylex.hee.entity.mob.EntityMobParalyzedEnderman;
-import chylex.hee.entity.mob.EntityMobSanctuaryOverseer;
 import chylex.hee.entity.mob.EntityMobScorchingLens;
 import chylex.hee.entity.mob.EntityMobVampiricBat;
 import chylex.hee.entity.projectile.EntityProjectileCorruptedEnergy;
@@ -52,7 +51,6 @@ import chylex.hee.entity.projectile.EntityProjectileFlamingBall;
 import chylex.hee.entity.projectile.EntityProjectileGolemFireball;
 import chylex.hee.entity.projectile.EntityProjectileMinerShot;
 import chylex.hee.entity.projectile.EntityProjectilePotion;
-import chylex.hee.entity.projectile.EntityProjectileSacredWand;
 import chylex.hee.entity.projectile.EntityProjectileSpatialDash;
 import chylex.hee.entity.technical.EntityTechnicalBiomeInteraction;
 import chylex.hee.entity.technical.EntityTechnicalCurseBlock;
@@ -109,7 +107,6 @@ import chylex.hee.tileentity.TileEntityEssenceAltar;
 import chylex.hee.tileentity.TileEntityExperienceTable;
 import chylex.hee.tileentity.TileEntityExtractionTable;
 import chylex.hee.tileentity.TileEntityLaserBeam;
-import chylex.hee.tileentity.TileEntitySanctuaryBrain;
 import chylex.hee.tileentity.TileEntityTransportBeacon;
 import chylex.hee.tileentity.TileEntityVoidChest;
 import chylex.hee.world.DimensionOverride;
@@ -244,7 +241,6 @@ public class HardcoreEnderExpansion{
 		EntityRegistry.registerModEntity(EntityMobScorchingLens.class, "ScorchedLens", 15, this, 256, 1, true);
 		EntityRegistry.registerModEntity(EntityMobHauntedMiner.class, "HauntedMiner", 35, this, 256, 1, true);
 		EntityRegistry.registerModEntity(EntityMobEndermage.class, "Endermage", 41, this, 256, 1, true);
-		EntityRegistry.registerModEntity(EntityMobSanctuaryOverseer.class, "SanctuaryOverseer", 53, this, 256, 1, true);
 
 		EntityRegistry.registerModEntity(EntityBlockFallingDragonEgg.class, "FallingDragonEgg", 25, this, 128, 1, true);
 		EntityRegistry.registerModEntity(EntityBlockFallingObsidian.class, "FallingObsidian", 26, this, 128, 1, true);
@@ -269,7 +265,6 @@ public class HardcoreEnderExpansion{
 		EntityRegistry.registerModEntity(EntityProjectileFiendFireball.class, "ProjectileFiendFireball", 45, this, 128, 1, true);
 		EntityRegistry.registerModEntity(EntityProjectileCurse.class, "ProjectileCurse", 48, this, 128, 1, true);
 		EntityRegistry.registerModEntity(EntityProjectileExpBottleConsistent.class, "ProjectileExpBottleConsistent", 49, this, 128, 1, true);
-		EntityRegistry.registerModEntity(EntityProjectileSacredWand.class, "ProjectileSacredWand", 52, this, 128, 1, true);
 
 		EntityRegistry.registerModEntity(EntityWeatherLightningBoltSafe.class, "LightningBoltSafe", 4, this, 512, 1, false);
 		EntityRegistry.registerModEntity(EntityWeatherLightningBoltDemon.class, "LightningBoltDemon", 21, this, 512, 1, false);
@@ -301,7 +296,6 @@ public class HardcoreEnderExpansion{
 		GameRegistryUtil.registerTileEntity(TileEntityEnhancedTNT.class, "EnhancedTNT");
 		GameRegistryUtil.registerTileEntity(TileEntityVoidChest.class, "VoidChest");
 		GameRegistryUtil.registerTileEntity(TileEntityTransportBeacon.class, "TransportBeacon");
-		GameRegistryUtil.registerTileEntity(TileEntitySanctuaryBrain.class, "SanctuaryBrain");
 		
 		Stopwatch.finish("PreInitEvent - tile entities");
 		

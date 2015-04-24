@@ -7,7 +7,6 @@ import net.minecraft.world.World;
 import net.minecraftforge.common.DimensionManager;
 import chylex.hee.block.BlockList;
 import chylex.hee.block.BlockRavagedBrick;
-import chylex.hee.block.BlockSacredStone;
 import chylex.hee.system.test.data.MethodType;
 import chylex.hee.system.test.data.RunTime;
 import chylex.hee.system.test.data.UnitTest;
@@ -68,7 +67,6 @@ public class BlockTests{
 		setMove(BlockList.laboratory_floor);
 		for(int a = 0; a < 4; a++)setMove(BlockList.laboratory_stairs,a);
 		for(int a = 0; a < 4; a++)setMove(BlockList.laboratory_stairs,8+a);
-		for(int a = 0; a < BlockSacredStone.metaAmount; a++)setMove(BlockList.sacred_stone,a);
 		setMove(BlockList.sphalerite,0);
 		setMove(BlockList.endium_block);
 		setMove(BlockList.laboratory_glass);
